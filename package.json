@@ -1,0 +1,25 @@
+{
+  "name": "clickhouse-orm",
+  "version": "1.0.0",
+  "description": "A Sequelize-like ORM for ClickHouse database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "example": "node examples/basic-usage.js"
+  },
+  "keywords": [
+    "clickhouse",
+    "orm",
+    "database",
+    "sql",
+    "query-builder"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@clickhouse/client": "^0.2.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
