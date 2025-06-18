@@ -1,6 +1,7 @@
 const Connection = require('./lib/Connection');
 const Model = require('./lib/Model');
 const DataTypes = require('./lib/DataTypes');
+const { literal, Literal } = require('./lib/Literals');
 const QueryBuilder = require('./lib/QueryBuilder');
 const Schema = require('./lib/Schema');
 
