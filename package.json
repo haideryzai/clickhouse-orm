@@ -4,8 +4,7 @@
   "description": "A Sequelize-like ORM for ClickHouse database",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js",
-    "example": "node examples/basic-usage.js"
+    "test": "node test/index.js"
   },
   "keywords": [
     "clickhouse",
@@ -14,7 +13,7 @@
     "sql",
     "query-builder"
   ],
-  "author": "Your Name",
+  "author": "Haider Zaman",
   "license": "MIT",
   "dependencies": {
     "@clickhouse/client": "^0.2.5"
