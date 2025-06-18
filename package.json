@@ -1,6 +1,6 @@
 {
   "name": "chouse-orm",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Sequelize-like ORM for ClickHouse database",
   "main": "index.js",
   "scripts": {
