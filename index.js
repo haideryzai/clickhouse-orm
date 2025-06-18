@@ -12,6 +12,7 @@ class ClickHouseORM {
     this.connection = new Connection(config);
     this.models = new Map();
     this.DataTypes = DataTypes;
+    this.literal = literal;
   }
 
   /**

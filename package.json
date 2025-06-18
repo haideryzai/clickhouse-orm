@@ -16,7 +16,8 @@
   "author": "Haider Zaman",
   "license": "MIT",
   "dependencies": {
-    "@clickhouse/client": "^0.2.5"
+    "@clickhouse/client": "^0.2.5",
+    "chouse-orm": "^1.0.0"
   },
   "engines": {
     "node": ">=14.0.0"

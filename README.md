@@ -15,13 +15,13 @@ A Sequelize-like ORM for ClickHouse database with TypeScript support, connection
 ## Installation
 
 ```bash
-npm install clickhouse-orm @clickhouse/client
+npm install chouse-orm @clickhouse/client
 ```
 
 ## Quick Start
 
 ```javascript
-const ClickHouseORM = require('clickhouse-orm');
+const ClickHouseORM = require('chouse-orm');
 
 // Initialize ORM
 const orm = new ClickHouseORM({
@@ -199,7 +199,7 @@ const usersWithPosts = await queryBuilder
 ## Data Types
 
 ```javascript
-const { DataTypes } = require('clickhouse-orm');
+const { DataTypes } = require('chouse-orm');
 
 // Numeric types
 DataTypes.UInt8        // 0 to 255
